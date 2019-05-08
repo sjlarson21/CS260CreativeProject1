@@ -1,5 +1,47 @@
 <!DOCTYPE html>
 <html>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .image {
+  opacity: 0.3;
+}
+
+.container:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+</style>
 <head>
     <link href="style.css" rel="stylesheet">
     <script src="script.js"></script>
@@ -33,5 +75,41 @@
             </div>
     </nav>
 
+    <div class="h1">
+        <h2>BEACHES</h2>
+        <p>Hover over the image to see the name and location.</p>
+    </div>
+
+    <div class="row">
+        <div class="column">
+                <div class="container">
+                        <img src="./Images/sunset-beach-oahu.jpg" alt="Sunset Beach" class="image" style="width:100%">
+                        <div class="middle">
+                            <div class="text">Sunset Beach</div>
+                        </div>
+                </div>
+        </div>
+    
+        <div class="column">
+            <div class="container">
+                    <img src="./Images/Lanikai-Beach.jpg" alt="Lanikai Beach" class="image" style="width:100%">
+                    <div class="middle">
+                        <div class="text">Lanikai Beach</div>
+                    </div>
+            </div>
+        </div>
+        
+        <div class="column">
+            <div class="container">
+                    <img src="./Images/waimeabay.jpg" alt="Waimea Beach" class="image" style="width:100%">
+                    <div class="middle">
+                        <div class="text">Waimea Beach</div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
 </body>
+</head>
+
 </html> 
