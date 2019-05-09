@@ -32,6 +32,68 @@
                   </ul>
             </div>
     </nav>
+<<<<<<< HEAD
+
+    <div class="h1">
+        <h1>PLACES TO EAT</h1>
+    </div>
+    <div class="row">
+        <div class="column">
+            <section>
+                <img class="mySlides" src="./Images/haleiwa1.jpg" ALIGN="left" class="image" style="width:50%">
+                <img class="mySlides" src="./Images/northshoretacos.jpg" alt="North Shore Tacos" ALIGN="left" class="image" style="width:50%">
+                <img class="mySlides" src="./Images/haleiwa2.jpg" ALIGN="left" class="image" style="width:50%">
+                <img class="mySlides" src="./Images/acai_banzai_bowl.jpg" ALIGN="left" class="image" style="width:50%">
+                <img class="mySlides" src="./Images/7bros.jpg" ALIGN="left" class="image" style="width:50%">
+                <img class="mySlides" src="./Images/kahuku.jpg" ALIGN="left" class="image" style="width:50%">
+                <img class="mySlides" src="./Images/sharkscovetrucks.jpg" ALIGN="left" class="image" style="width:50%">
+            </section>
+        </div>
+
+        <div class="column">
+            <div class="food">
+                    <ul>
+                        <li>Haleiwa Bowls</li>
+                        <a href="http://www.haleiwabowls.com/">WEBSITE</a>
+                        <li>Banzai Bowls</li>
+                        <a href="https://www.yelp.com/biz/banzai-bowls-haleiwa">YELP</a>
+                        <li>Sharks Cove Food Trucks</li>
+                        <a href="https://tinyurl.com/y24zkg2j">LOCATION</a>
+                        <li>The Elephant Truck</li>
+                        <a href="https://www.facebook.com/TheElephantShack808/">FACEBOOK</a>
+                        <li>Seven Brothers</li>
+                        <a href="http://www.sevenbrothersburgers.com/">WEBSITE</a>
+                        <li>Kahuku Grill</li>
+                        <a href="https://www.tripadvisor.com/Restaurant_Review-g60651-d1774858-Reviews-Kahuku_Grill-Kahuku_Oahu_Hawaii.html">TRIPADVISOR</a>
+                        <li>North Shore Tacos</li>
+                        <a href="https://www.yelp.com/biz/north-shore-tacos-hauula">YELP</a>
+                    </ul>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+        var myIndex = 0;
+        carousel();
+
+        function carousel() {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            myIndex++;
+            if (myIndex > x.length) {
+                myIndex = 1;
+            }
+            x[myIndex-1].style.display = "block";
+            setTimeout(carousel, 3000);
+        }
+
+    </script>
+        
+    </div>
+=======
 	<div class="common mainbody eating">
 		<div class="h1"></div>
 			<h1>PLACES TO EAT</h1>
@@ -50,6 +112,7 @@
 		<img src="bowl.JPG" alt="Haleiwa bowls" height="250px">
 		<img src="tacos.jpg" alt="three tacos" height="250px">
 	</div>
+>>>>>>> 47260b8ce205eda9887c46ebc560dd69d435ac8a
 
 </body>
 </html> 
