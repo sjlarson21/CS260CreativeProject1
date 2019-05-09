@@ -45,7 +45,11 @@
 }
 
 .trInfo {
-	
+	padding: 10px;
+	padding-left: 30px;
+}
+.trInfo p {
+	font-size: 18px;
 }
 .hikes {
 	background: #D1D4D8;
@@ -82,7 +86,6 @@ img {
 	top: 150px;
 	left: 5px;
 	width: 200px;
-	bottom: 64px;
 	z-index: 1;
 	padding-top: 45px;
 }
@@ -90,15 +93,24 @@ img {
 .mainbody {
 	background:#EEEEEE; 
 	top: 150px;
-	bottom: 64px;
 	left: 214px;
 	right: 214px;
 	padding-right: 5px;
 }
 .rightbody {
 	top: 150px;
-	bottom: 64px;
 	right: 5px;
 	width: 200px;
 	padding-left: 10px;
+}
+.form {
+	bottom: 5px;
+	height: 150px;
+	left: 5px;
+	right: 5px;
+	color: #000011;
+	position: absolute;
+}
+.form h3 {
+	padding-left: 62px;
 }
