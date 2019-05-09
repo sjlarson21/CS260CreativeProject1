@@ -44,6 +44,9 @@
 	border: black 2px solid;
 }
 
+.trInfo {
+	
+}
 .hikes {
 	background: #D1D4D8;
 	padding-left: 5rem;
@@ -72,29 +75,30 @@ img {
 	left: 800px;
 }
 
-.leftbody {
+.common {
 	position: absolute;
-	top: 114px;
+}
+.leftmenu {
+	top: 150px;
 	left: 5px;
-	width: 300px;
+	width: 200px;
 	bottom: 64px;
 	z-index: 1;
 	padding-top: 45px;
 }
 
 .mainbody {
-	position: absolute;
-	top: 114px;
+	background:#EEEEEE; 
+	top: 150px;
 	bottom: 64px;
-	left: 305px;
-	right: 305px;
+	left: 214px;
+	right: 214px;
 	padding-right: 5px;
 }
 .rightbody {
-	position: absolute;
-	top: 114px;
+	top: 150px;
 	bottom: 64px;
 	right: 5px;
-	width: 300px;
+	width: 200px;
 	padding-left: 10px;
 }
