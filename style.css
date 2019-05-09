@@ -67,6 +67,10 @@
 	border: solid 1px #333333;
 	padding: 10px;
 }
+.eating {
+	padding: 25px;
+	padding-left: 50px;
+}
 .hikes {
 	background: #D1D4D8;
 	padding-left: 5rem;
