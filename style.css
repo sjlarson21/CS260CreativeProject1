@@ -40,6 +40,10 @@
     padding: 5px;
 }
 
+.video {
+	border: solid 3px black;
+}
+
 .hikes {
 	background: #D1D4D8;
 	padding: 5px;
@@ -50,11 +54,6 @@
 	position: absolute;
 }
 
-.pillpictures {
-	position: absolute;
-	left: 500px;
-}
-
 .hikepictures {
 	bottom: 64px;
 	left: 114px;
@@ -62,6 +61,37 @@
 	padding-right: 5px;
 }
 
+.leftbody {
+	/* height of 100 + 5 for the top boarder + 5 for the top of this one 
+	+ 2 for the border + 2 for this border = 114*/
+	position: absolute;
+	top: 114px;
+	left: 5px;
+	width: 100px;
+	bottom: 64px;
+	z-index: 1;
+	padding-top: 45px;
+	border-right: solid 1px #333333;
+	color: rgba(207,161,92,1.00)
+}
+
+.mainbody {
+	position: absolute;
+	top: 114px;
+	bottom: 64px;
+	left: 114px;
+	right: 114px;
+	padding-right: 5px;
+}
+.rightbody {
+	position: absolute;
+	top: 114px;
+	bottom: 64px;
+	right: 5px;
+	width: 100px;
+	border-left: solid 1px #333333;
+	padding-left: 10px;
+}
 
 
 
