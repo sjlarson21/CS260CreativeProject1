@@ -39,11 +39,23 @@
     flex: 33.33%;
     padding: 5px;
 }
-
+.theocean {
+	border: #000000 solid 2px;
+	padding: 0px;
+}
 .video {
+	margin: 50px;
 	border: black 2px solid;
 }
-
+.quote {
+	padding-top: 10px;
+}
+.vd {
+	text-align: center;
+	font-size: 20px;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
 .trInfo {
 	padding: 10px;
 	padding-left: 30px;
