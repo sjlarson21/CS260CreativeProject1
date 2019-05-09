@@ -9,6 +9,15 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <title>TRAVEL</title>
+	<style>
+		.containers {
+			padding-left: 20px;
+		}
+		.containers:hover{
+			border: thin black solid;
+		}
+
+	</style>
 </head>
 <body>
     <div class="header">
@@ -32,8 +41,13 @@
                   </ul>
             </div>
     </nav>
-	
+	<div class="h1">
+        <h2>HIKES</h2>
+		<h4>our favorite places around the island</h4>
+    </div>
+
 	<div class="hikes">
+		<div id="water" class="containers">
 		<h2>WaterFalls</h2>
 			<ol>
 				<li>Sacred Falls</li>
@@ -41,7 +55,8 @@
 				<li>Waimea Falls</li>
 				<li>Laie Falls</li>
 			</ol>
-		
+		</div>
+		<div id="box" class="containers">
 		<h2>Pill boxes</h2>
 			<ol>
 				<li>Sunset</li>
@@ -49,6 +64,8 @@
 				<li>Pink Pill boxes</li>
 				<li>Kawela bay pill boxes</li>
 			</ol>
+		</div>
+		<div id="hike" class="containers">
 		<h2>Hikes</h2>
 			<ol>
 				<li>Crouching lion</li>
@@ -59,13 +76,14 @@
 				<li>Ka'au Crater</li>
 				<li>Stairway to heaven</li>
 			</ol>
+		</div>
 	</div>
 	<div class="pillpictures">
-		<img src="pill.JPG" alt="pill boxes" height="500px">
+		<img src="pill.JPG" alt="pill boxes" height="500px"  id="pillpic">
 	</div>
 	<div class="hikepictures">
-		<img src="falls.jpg" alt="sacred falls" height="250px">
-		<img src="notches.JPG" alt="pali notchess" height="250px">
+		<img src="falls.jpg" alt="sacred falls" height="250px" id="fallspic">
+		<img src="notches.JPG" alt="pali notchess" height="250px" id="notchpic">
 		
 	</div>
 
