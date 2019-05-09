@@ -44,20 +44,18 @@
 	background: #D1D4D8;
 	padding: 5px;
 	padding-left: 7rem;
-	left: 10px;
-	width: 400px;
+	margin-left: 2rem;
+	left: 1rem;
+	width: 42rem;
+	position: absolute;
 }
 
 .pillpictures {
-	top: 114px;
-	bottom: 64px;
-	left: 114px;
-	right: 114px;
-	padding-right: 5px;
+	position: absolute;
+	left: 500px;
 }
 
 .hikepictures {
-	top: 114px;
 	bottom: 64px;
 	left: 114px;
 	right: 114px;
