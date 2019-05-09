@@ -51,6 +51,10 @@
 .trInfo p {
 	font-size: 18px;
 }
+.trInfo h2 {
+	border: solid 1px #333333;
+	padding: 10px;
+}
 .hikes {
 	background: #D1D4D8;
 	padding-left: 5rem;
@@ -96,6 +100,7 @@ img {
 	left: 214px;
 	right: 214px;
 	padding-right: 5px;
+	margin-bottom: 40px;
 }
 .rightbody {
 	top: 150px;
@@ -104,13 +109,9 @@ img {
 	padding-left: 10px;
 }
 .form {
-	bottom: 5px;
-	height: 150px;
-	left: 5px;
-	right: 5px;
-	color: #000011;
-	position: absolute;
+	margin: 10px;
+	margin-bottom: 30px;
 }
 .form h3 {
-	padding-left: 62px;
+	text-align: center;
 }
